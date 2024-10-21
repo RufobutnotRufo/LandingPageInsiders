@@ -1,0 +1,35 @@
+
+
+
+.user-skills-block{
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+   
+    .user-skills-block-item{
+        background-color: #F3F3F3;
+        padding: 10px 15px;
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 24px;
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+    }
+    :hover{
+        background-color: orangered;
+    }
+   }
+.projects-show-project{
+    margin-top: 76px;
+    display: flex;
+   justify-content: space-between;
+   gap: 47px;
+  
+   .project-show-item-svg{
+    img{
+        width: 341px;
+        height: 500px;
+    }
+   }
+}
