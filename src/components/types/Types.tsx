@@ -9,3 +9,12 @@ export interface NavMenuTypes {
   name: string;
   link: string;
 }
+
+export interface footerMenuRender {
+  elem: string;
+}
+
+export interface footerLinks {
+  img: string;
+  alt: string;
+}

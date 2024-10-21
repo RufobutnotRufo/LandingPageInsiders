@@ -6,6 +6,8 @@ import OurServices from "./components/OurServices/OurServices";
 import ProjectShow from "./components/ProjectsShow/ProjectShow";
 import UserComents from "./components/userComents/UserComents";
 import ComentsSlider from "./components/comentsSlider/ComentsSlider";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,8 +21,10 @@ function App() {
         <OurServices />
         <ProjectShow />
         <UserComents />
-        <ComentsSlider/>
+        <ComentsSlider />
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }

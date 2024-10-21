@@ -1,0 +1,38 @@
+footer {
+    margin-top: 142px;
+    background-color: #F8F8F8;
+    padding-top: 109px;
+
+    .footer-inner {
+        margin-top: 109px;
+
+        .footer-header {
+            text-align: center;
+        }
+
+        .footer-nav-menu {
+            margin-top: 78px;
+
+            .footer-nav-menu-items {
+                display: flex;
+                justify-content: center;
+                gap: 13px;
+
+                .footer-nav-menu-item {
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 400;
+                    font-size: 21px;
+                    color: #000000;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .links {
+            margin-top: 78px;
+            display: flex;
+            justify-content: center;
+            gap: 26px;
+        }
+    }
+}
