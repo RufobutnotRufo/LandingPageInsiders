@@ -3,7 +3,7 @@
 
     .mainContent-inner {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
 
         .main-content-info {
@@ -23,14 +23,16 @@
                     font-family: "Poppins", sans-serif;
 
                 }
-                .main-content-info-inne-intro-jobs{
+
+                .main-content-info-inne-intro-jobs {
                     margin-top: -40px;
                     font-family: "Poppins", sans-serif;
                     font-weight: 700;
                     font-size: 100px;
                     color: #000000;
                 }
-                .main-content-info-inne-intro-jobs-header{
+
+                .main-content-info-inne-intro-jobs-header {
                     margin-top: -60px;
                     font-family: "Poppins", sans-serif;
                     font-weight: 700;
@@ -38,14 +40,16 @@
                     color: #000000;
                     margin-left: 137px;
                 }
-                .introduction-text{
+
+                .introduction-text {
                     width: 706px;
                     font-weight: 400;
                     font-family: "Poppins", sans-serif;
                     font-weight: 400;
                     font-size: 21px;
                 }
-                .hire-me-btn{
+
+                .hire-me-btn {
                     margin-top: 20px;
                     background-color: #FF6300;
                     padding: 11px 50px 11px 50px;
@@ -53,21 +57,22 @@
                     color: #FFFFFF;
                     font-family: "Poppins", sans-serif;
                 }
-                
+
             }
-          
+
         }
-        .mainContent-inner-person-intro-svg{
-            .links-nav-menu{
-                .links-nav{
+
+        .mainContent-inner-person-intro-svg {
+            .links-nav-menu {
+                .links-nav {
                     margin-top: 10px;
                     display: flex;
                     justify-content: center;
                     gap: 26px;
                 }
-             
+
 
             }
-         }
+        }
     }
 }

@@ -1,11 +1,9 @@
-// import Logo from "../header/Logo.svg";
-import './Header.scss';
-import logo from './Logo.svg';
+import "./Header.scss";
+import logo from "./Logo.svg";
 const Header: React.FC = () => {
   return (
     <div className="container">
       <div className="header-inner">
-        
         <div className="header-logo">
           <img className="header-logo-svg" alt="logo" src={logo} />
         </div>
