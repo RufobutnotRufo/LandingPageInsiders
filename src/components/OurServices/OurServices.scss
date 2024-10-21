@@ -1,0 +1,53 @@
+.our-services {
+    margin-top: 120px;
+
+    .our-services-inner {
+        text-align: center;
+
+        .services-intro {
+            font-weight: 600;
+            font-size: 65px;
+            font-family: "Poppins", sans-serif;
+            color: #000000;
+
+
+        }
+
+        .services-intro-text-content-text {
+            display: flex;
+            font-weight: 400;
+            width: 932px;
+            margin: 0 auto;
+            font-family: "Poppins", sans-serif;
+            font-size: 21px;
+            color: #000000;
+        }
+
+    }
+
+    .our-services-blocks {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+        gap: 31px;
+
+        .our-service-block {
+            padding: 30px 18px 18px 18px;
+            background-color: #F3F3F3;
+        }
+
+        .our-services-blocks-skill-name {
+            color: #000000;
+            font-weight: 600;
+            font-size: 32px;
+            font-family: "Poppins", sans-serif;
+            margin-top: 10px;
+        }
+
+        .our-services-blocks-skill-text {
+            font-weight: 400;
+            font-size: 19px;
+            color: #000000;
+        }
+    }
+}
