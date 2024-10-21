@@ -8,24 +8,29 @@ import UserComents from "./components/userComents/UserComents";
 import ComentsSlider from "./components/comentsSlider/ComentsSlider";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import { ThemeProvider, useTheme } from "./components/Context"; // Импортируйте ThemeProvider
 
 function App() {
   return (
-    <>
-      <header>
-        <Header />
-      </header>
-      <main>
-        <MainContent />
-        <AboutMeContent />
-        <OurServices />
-        <ProjectShow />
-        <UserComents />
-        <ComentsSlider />
-        <Contact />
-      </main>
-      <Footer />
-    </>
+    <ThemeProvider>
+      {" "}
+      {/* Оберните все в ThemeProvider */}
+      <>
+        <header>
+          <Header />
+        </header>
+        <main>
+          <MainContent />
+          <AboutMeContent />
+          <OurServices />
+          <ProjectShow />
+          <UserComents />
+          <ComentsSlider />
+          <Contact />
+        </main>
+        <Footer />
+      </>
+    </ThemeProvider>
   );
 }
 

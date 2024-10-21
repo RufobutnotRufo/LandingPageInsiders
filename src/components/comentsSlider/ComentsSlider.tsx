@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
-import Types from "../types/Types";
+import { userInterface } from "../types/Types";
 
 const ComentsSlider: React.FC = () => {
-  const [objects, setObjects] = useState<Types[]>([
+  const [objects, setObjects] = useState<userInterface[]>([
     {
       id: 1,
       text: "Lorem ipsum dolor sit amet consectetur. Id purus placerat scelerisque ullamcorper habitasse egestas.Nunc gravida egestas suspendisse volutpat suscipit suspendisse faucibus amet convallis.",
