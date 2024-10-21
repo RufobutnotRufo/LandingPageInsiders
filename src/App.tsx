@@ -1,5 +1,6 @@
 import "./index.css";
 import Header from "./components/header/Header";
+import MainContent from "./components/mainContent/MainContent";
 
 function App() {
   return (
@@ -8,9 +9,7 @@ function App() {
         <Header />
       </header>
       <main>
-        <section className="main-content">
-            
-        </section>
+        <MainContent />
       </main>
     </>
   );
